@@ -1,0 +1,21 @@
+const accountId=141453
+let accountMail="prionta@gmail.com" 
+var accountPassword="2354"
+accountCity="jaipur"
+
+let accountState;
+
+accountMail="hc@hc.com"
+accountPassword="2121"
+accountCity="Kolkata"
+
+console.log(accountId);
+/*
+prefer not to use var
+because of issue in block scope and function scope
+in java script we can write variables in two ways (var)&(let)now everyone use (let) because (var) has some limitations
+In javaScript if we declare const after that we can not change that variables
+We can also assign variables not using let and var
+But Using let and var is perfect way to practice
+*/
+console.table([accountId,accountMail,accountPassword,accountCity,accountState])
